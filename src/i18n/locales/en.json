@@ -1,0 +1,24 @@
+{
+  "app": {
+    "title": "Email Safety Analyzer",
+    "subtitle": "Check if a message looks like phishing in seconds.",
+    "senderLabel": "Sender domain or email",
+    "senderPlaceholder": "facebook.com or name@example.com",
+    "contentLabel": "Email content",
+    "contentPlaceholder": "Paste the email content here...",
+    "analyze": "Analyze",
+    "analyzing": "Analyzing...",
+    "resultTitle": "Analysis Result",
+    "prediction": "Prediction",
+    "phishConfidence": "Phishing Confidence %",
+    "safeConfidence": "Safe Confidence %",
+    "confidenceNote": "Scores are model estimates and should be reviewed by a human.",
+    "emptyState": "Enter the sender and content to get a prediction.",
+    "error": "Something went wrong. Please try again."
+  },
+  "nav": {
+    "lang": "Language",
+    "ar": "Arabic",
+    "en": "English"
+  }
+}

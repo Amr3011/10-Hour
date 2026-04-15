@@ -1,0 +1,24 @@
+{
+  "app": {
+    "title": "محلل أمان البريد الإلكتروني",
+    "subtitle": "تحقق بسرعة إذا كانت الرسالة تبدو تصيّدًا احتياليًا.",
+    "senderLabel": "البريد أو الدومين المرسل",
+    "senderPlaceholder": "facebook.com أو name@example.com",
+    "contentLabel": "محتوى البريد",
+    "contentPlaceholder": "الصق محتوى البريد هنا...",
+    "analyze": "تحليل",
+    "analyzing": "جارٍ التحليل...",
+    "resultTitle": "نتيجة التحليل",
+    "prediction": "التوقع",
+    "phishConfidence": "نسبة التصيّد %",
+    "safeConfidence": "نسبة الأمان %",
+    "confidenceNote": "النسب تقديرية ويجب مراجعتها بشريًا.",
+    "emptyState": "أدخل المرسل والمحتوى للحصول على النتيجة.",
+    "error": "حدث خطأ. حاول مرة أخرى."
+  },
+  "nav": {
+    "lang": "اللغة",
+    "ar": "العربية",
+    "en": "الإنجليزية"
+  }
+}

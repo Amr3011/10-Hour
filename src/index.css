@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Cairo", "Space Grotesk", "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+  --page-bg: #f8fafc;
+  --page-text: #020617;
+  --surface: rgba(255, 255, 255, 0.8);
+  --surface-strong: #ffffff;
+  --surface-muted: rgba(255, 255, 255, 0.7);
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --card-shadow: rgba(148, 163, 184, 0.28);
+  --field-bg: #ffffff;
+  --field-text: #020617;
+  --field-placeholder: #64748b;
+  --muted-text: #334155;
+  --glow-amber: rgba(253, 224, 71, 0.28);
+  --glow-sky: rgba(125, 211, 252, 0.3);
+  --control-bg: rgba(255, 255, 255, 0.96);
+  --control-border: #cbd5e1;
+  --control-text: #0f172a;
+  --control-muted: #475569;
+  --control-active-bg: rgba(254, 243, 199, 1);
+  --control-active-text: #854d0e;
+  --action-bg: linear-gradient(
+    180deg,
+    rgba(254, 243, 199, 1),
+    rgba(253, 230, 138, 0.95)
+  );
+  --action-border: rgba(245, 158, 11, 0.45);
+  --action-text: #713f12;
+  --action-hover-bg: linear-gradient(
+    180deg,
+    rgba(253, 230, 138, 1),
+    rgba(251, 191, 36, 0.95)
+  );
+  --tone-primary-bg: linear-gradient(
+    180deg,
+    rgba(255, 251, 235, 0.95),
+    rgba(254, 243, 199, 0.85)
+  );
+  --tone-primary-border: rgba(245, 158, 11, 0.28);
+  --tone-warning-bg: linear-gradient(
+    180deg,
+    rgba(255, 241, 242, 0.95),
+    rgba(255, 228, 230, 0.85)
+  );
+  --tone-warning-border: rgba(244, 63, 94, 0.28);
+  --tone-success-bg: linear-gradient(
+    180deg,
+    rgba(236, 253, 245, 0.95),
+    rgba(209, 250, 229, 0.85)
+  );
+  --tone-success-border: rgba(16, 185, 129, 0.28);
+}
+
+html.dark {
+  color-scheme: dark;
+  --page-bg: #020617;
+  --page-text: #e2e8f0;
+  --surface: rgba(15, 23, 42, 0.7);
+  --surface-strong: rgba(15, 23, 42, 0.9);
+  --surface-muted: rgba(2, 6, 23, 0.6);
+  --border: #1e293b;
+  --border-strong: #334155;
+  --card-shadow: rgba(2, 6, 23, 0.4);
+  --field-bg: rgba(2, 6, 23, 0.6);
+  --field-text: #f8fafc;
+  --field-placeholder: #64748b;
+  --muted-text: #94a3b8;
+  --glow-amber: rgba(251, 191, 36, 0.1);
+  --glow-sky: rgba(56, 189, 248, 0.1);
+  --control-bg: rgba(2, 6, 23, 0.72);
+  --control-border: #334155;
+  --control-text: #e2e8f0;
+  --control-muted: #94a3b8;
+  --control-active-bg: rgba(251, 191, 36, 0.2);
+  --control-active-text: #fef3c7;
+  --action-bg: linear-gradient(
+    180deg,
+    rgba(251, 191, 36, 0.28),
+    rgba(245, 158, 11, 0.18)
+  );
+  --action-border: rgba(245, 158, 11, 0.42);
+  --action-text: #fef3c7;
+  --action-hover-bg: linear-gradient(
+    180deg,
+    rgba(251, 191, 36, 0.35),
+    rgba(245, 158, 11, 0.25)
+  );
+  --tone-primary-bg: linear-gradient(
+    180deg,
+    rgba(15, 23, 42, 0.96),
+    rgba(30, 41, 59, 0.9)
+  );
+  --tone-primary-border: rgba(245, 158, 11, 0.28);
+  --tone-warning-bg: linear-gradient(
+    180deg,
+    rgba(24, 18, 40, 0.96),
+    rgba(49, 18, 34, 0.9)
+  );
+  --tone-warning-border: rgba(244, 63, 94, 0.28);
+  --tone-success-bg: linear-gradient(
+    180deg,
+    rgba(8, 29, 27, 0.96),
+    rgba(13, 42, 37, 0.9)
+  );
+  --tone-success-border: rgba(16, 185, 129, 0.28);
+}
+
+body {
+  margin: 0;
+  background-color: var(--page-bg);
+  color: var(--page-text);
+}
+
+#root {
+  min-height: 100vh;
+}
