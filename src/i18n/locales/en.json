@@ -2,7 +2,7 @@
   "app": {
     "title": "Email Safety Analyzer",
     "subtitle": "Check if a message looks like phishing in seconds.",
-    "senderLabel": "Sender domain or email",
+    "senderLabel": "Sender email",
     "senderPlaceholder": "facebook.com or name@example.com",
     "contentLabel": "Email content",
     "contentPlaceholder": "Paste the email content here...",

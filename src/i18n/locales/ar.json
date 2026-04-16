@@ -2,7 +2,7 @@
   "app": {
     "title": "محلل أمان البريد الإلكتروني",
     "subtitle": "تحقق بسرعة إذا كانت الرسالة تبدو تصيّدًا احتياليًا.",
-    "senderLabel": "البريد أو الدومين المرسل",
+    "senderLabel": "البريد المرسل",
     "senderPlaceholder": "facebook.com أو name@example.com",
     "contentLabel": "محتوى البريد",
     "contentPlaceholder": "الصق محتوى البريد هنا...",
